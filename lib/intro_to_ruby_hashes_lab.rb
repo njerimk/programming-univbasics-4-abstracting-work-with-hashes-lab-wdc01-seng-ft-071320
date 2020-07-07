@@ -1,10 +1,28 @@
 def my_hash_creator(key, value)
-  # return a hash that includes the key and value parameters passed into this method
+  my_hash = Hash.new
+  if my_hash[key] 
+    my_hash 
+  else
+    my_hash[key]= value
+  end
+   my_hash
 end
+my_hash_creator(:name,'Grace Hopper')
 
 def read_from_hash(hash, key)
+  read_hash = Hash.new
+  read_hash={
+    location: "New York City",
+    occupation: "Student"
+  }
+  if hash[key]
+    then puts hash[key]
+  else
+    hash[key]
   # return the correct value using the hash and key parameters
+  end
 end
+puts read_from_hash(read_hash,location)
 
 def update_counting_hash(hash, key)
   # given a hash an a key as parameters, return an updated hash
