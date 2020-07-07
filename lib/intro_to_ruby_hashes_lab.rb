@@ -12,7 +12,7 @@ my_hash_creator(:name,'Grace Hopper')
 def read_from_hash(hash, key)
   read_hash = Hash.new
   read_hash={
-    key "New York City"
+    key => "New York City"
   }
   if hash[key]
     then puts hash[key]
