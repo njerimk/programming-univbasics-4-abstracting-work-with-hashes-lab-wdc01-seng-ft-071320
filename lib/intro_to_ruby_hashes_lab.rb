@@ -25,7 +25,7 @@ read_hash=Hash.new
 read_hash={
     location: "New York City"
   }
-puts read_from_hash (read_hash,'location:')
+puts read_from_hash (read_hash,location::)
 
 def update_counting_hash(hash, key)
   # given a hash an a key as parameters, return an updated hash
