@@ -12,19 +12,13 @@ my_hash_creator(:name,'Grace Hopper')
 def read_from_hash(hash, key)
   read_hash = Hash.new
   if hash[key]
-    then puts hash[key]
+    then hash[key]
   else
-    puts hash[key]
+    hash[key]
   # return the correct value using the hash and key parameters
   end
 end
 
-read_hash = Hash.new
-read_hash{
-  name: 'Steve'
-}
-
-puts (read_from_hash((read_hash),{name})
 
 def update_counting_hash(hash, key)
   # given a hash an a key as parameters, return an updated hash
