@@ -14,10 +14,15 @@ def read_from_hash(hash, key)
   if hash[key]
     then puts hash[key]
   else
-    hash[key]
+    puts hash[key]
   # return the correct value using the hash and key parameters
   end
 end
+
+read_hash = Hash.new
+read_hash{
+  name: 'Steve'
+}
 
 puts (read_from_hash({read_hash}, :name))
 
