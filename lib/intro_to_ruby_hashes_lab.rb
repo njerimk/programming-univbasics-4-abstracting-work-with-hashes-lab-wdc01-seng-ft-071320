@@ -23,8 +23,7 @@ def read_from_hash(hash, key)
 end
 read_hash=Hash.new
 read_hash={
-    location: "New York City",
-    occupation: "Student"
+    location: "New York City"
   }
 puts read_from_hash(read_hash,location:)
 
