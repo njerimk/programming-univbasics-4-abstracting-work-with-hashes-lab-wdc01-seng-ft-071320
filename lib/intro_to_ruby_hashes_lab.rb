@@ -36,4 +36,4 @@ hash ={
   yellow: 1,
   green: 2
 }
-puts update_counting_hash(hash, :green)
+puts update_counting_hash(hash, :yellow)
