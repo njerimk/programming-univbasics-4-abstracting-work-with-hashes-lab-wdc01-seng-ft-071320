@@ -19,7 +19,7 @@ def read_from_hash(hash, key)
   end
 end
 
-read_hash 
+puts (read_from_hash({read_hash}, :name))
 
 def update_counting_hash(hash, key)
   # given a hash an a key as parameters, return an updated hash
