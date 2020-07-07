@@ -24,7 +24,7 @@ read_hash{
   name: 'Steve'
 }
 
-puts (read_from_hash(read_hash), :name))
+puts (read_from_hash(read_hash), :name)
 
 def update_counting_hash(hash, key)
   # given a hash an a key as parameters, return an updated hash
