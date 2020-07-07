@@ -24,9 +24,9 @@ def update_counting_hash(hash, key)
   if hash[key]
     puts hash[key] += 1
   else
-    puts hash[key]= 1
+    hash[key]= 1
   end
-  puts hash[key]
+  hash[key]
       
   # given a hash an a key as parameters, return an updated hash
   # if the provided key is not present in the hash, add it and assign it to the value of 1
