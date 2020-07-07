@@ -21,11 +21,6 @@ def read_from_hash(hash, key)
   # return the correct value using the hash and key parameters
   end
 end
-read_hash=Hash.new
-read_hash={
-    location: "New York City"
-  }
-puts read_from_hash (read_hash,key)
 
 def update_counting_hash(hash, key)
   # given a hash an a key as parameters, return an updated hash
