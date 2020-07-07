@@ -34,6 +34,7 @@ def update_counting_hash(hash, key)
 end
 
 hash ={
-  yellow: 1
+  yellow: 1,
+  green: 2
 }
-update_counting_hash(hash, key)
+puts update_counting_hash(hash, yellow)
